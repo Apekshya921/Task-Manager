@@ -205,7 +205,6 @@ function App() {
     }
   };
 
-  // SEARCH + FILTER
   const filteredTasks = tasks.filter((task) => {
     const search =
       searchTerm.toLowerCase();
